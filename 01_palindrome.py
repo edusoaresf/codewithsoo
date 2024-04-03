@@ -1,7 +1,7 @@
 def palindrome(word):
     reversed_word = word[::-1]
     
-    print(f'"{word}" is a palindrome!') if reversed_word.lower() == word.lower() else print(f'{word} is not a palindrome...')
+    print(f'"{word}" is a palindrome!') if reversed_word.lower() == word.lower() else print(f'{word} is not a palindrome.')
 
 word = input('Type a word: ')
 word = word.replace(" ", "")
