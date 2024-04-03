@@ -15,3 +15,5 @@ if len(word) > 2:
     palindrome(word)
 else:
     print('The entered word has no more than 2 characters.')
+
+# Test
