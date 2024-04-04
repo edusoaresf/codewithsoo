@@ -4,7 +4,6 @@ months_list = ['January', 'February', 'March',
                'Octuber', 'November', 'December']
 
 number = input('Enter the number of a month: ')
-
 number = number.replace(' ', '')
 
 try:
