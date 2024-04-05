@@ -5,7 +5,6 @@ def factorial(number):
         result *= i
     return print(result)
 
-
 number = input('Enter the number: ')
 number = number.replace(' ', '')
 
